@@ -1,0 +1,389 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+                         /*nav bar*/
+
+.nav{
+  display: flex;
+  background-color: #8e5151;
+  height: 90px;
+  align-items: center;
+  
+}
+#Logo img{
+  width: 80px;
+  border-radius: 100%;
+ margin-left: 30px;
+}
+            /* Search bar*/
+
+.con{
+  margin-left: 200px;
+}            
+.search-bar{
+  
+  height: 2.5rem;
+  width: 100%;
+  max-width:90rem;
+  background: rgba(255,255,255,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 26px;
+  margin-left: 20px;
+  
+  
+}
+.search-bar input{
+  background: transparent;
+  border: 0;
+  padding:2rem 2rem;
+  font-size: medium;
+  
+  
+  
+}
+.search-bar ::placeholder{
+  color: #FFF;
+}
+                        /* Search bar button */
+.search-bar button {
+  display: flex;
+  background: transparent;
+  border: 0;
+  }
+
+
+
+.search-bar button img{
+  
+  width: 1.8rem;
+  border-radius: 100%;
+  margin-top: 1px;
+
+}
+.continer1 ul{
+  margin-left: 50px;
+  display: flex;
+
+}
+.continer1 ul li{
+  list-style: none;
+  font-size: 1rem;
+}
+
+.continer1 ul li a {
+  text-decoration: none;
+  color: #FFF;
+  padding: 3px 22px;
+} 
+.continer1 ul li a:hover{
+  color:rgb(110, 148, 181) ;
+}
+                          /*  Subscription*/
+  #Subscription{
+   
+    
+    display: flex;
+    align-items: center;
+    height: 60px;
+   
+    margin-left:400px ;
+    border: #FFF;
+    color: #FFF;
+    font-size:x-large;
+  }
+   
+  #Subscription img{
+    width: 50px;
+    border-radius: 30%;
+  }
+  #Subscription p{
+    cursor: pointer;
+    border-right: solid;
+    
+    padding: 10px;
+  }          
+
+
+
+
+                                  /*  login*/
+
+
+  #LoginDiv{
+    
+    align-items:center ;
+    display: flex;
+    background-color: rgba(255,255,255,0.2);;
+    padding:0px 10px 0px  20px;
+    margin-left:15px ;
+    
+    border-radius: 30px;
+  }    
+  #LoginDiv p{
+    
+    font-size:x-large;
+    color: #FFF;
+    padding-right:2px ;
+    cursor: pointer;
+  }  
+
+.btn-login{
+  display: flex;
+  
+  background-color: #d1caca;
+  cursor: pointer;
+  background-color: gray(153, 73, 73);
+  border-radius: 100%;
+  color:black;
+   border: none;
+  }
+  .btn-login img{
+    
+    height: 30px;
+  }
+ 
+
+
+
+.overlay{
+  position: fixed;
+  top: 0%;
+  z-index: -3;
+  opacity: 0;
+}
+.overlay img{
+  width: 100%;
+  filter: blur(5px);
+}
+.showoverlay{
+  opacity: 1;
+  z-index: 3;
+}
+.loginForm{
+display: flex;
+width: 350px;
+background-color:transparent;   
+padding: 20px ;
+position: absolute; 
+left: 50%;
+top:-50%;
+transform: translate(-50%,-50%);
+box-shadow: 0px 0px 10px 4px rgb(116, 115, 115);
+z-index: 4;
+}
+.showloginForm{
+  top:50%;
+}
+
+.loginForm input{
+  border-radius: 1.5rem;
+  background-color: transparent;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  height: 45px;
+  padding-left: 30%;
+}
+.loginForm ::placeholder{
+  color: rgb(235, 234, 225);
+  font-size: x-large;
+}
+.loginForm button {
+  background-color: rgb(169, 166, 159);
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  border-radius: 1.5rem;
+  margin-left: 30%;
+  padding:10px 30px;
+  cursor: pointer;
+}
+.loginForm span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: green;
+  text-align: center;
+  color: white;
+  line-height:30px ;
+  right: 0px;
+  top:0px;
+ cursor: pointer;
+}
+
+
+
+body{
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #280256;
+}
+.slide-container{
+  
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 40px;
+  overflow: hidden;
+ /* border-radius: 25px;*/
+}
+
+                                   /* New Relese */
+.Section-1-hadding h1{
+color: #FFF;
+padding-top: 20px;
+padding-left: 10px;
+}
+
+.card-image img{
+  width: 14rem;
+  border-radius:10% ;
+ 
+}
+
+
+
+.title{
+  margin-left: 20px;
+}
+  .title h3 {
+    color: #FFF;
+  }
+
+                                                      /* Work Out Part */
+
+.img-container{
+
+  background-color: yellowgreen;
+  width: 220px;
+  height: 290px;
+align-items: center;
+  }
+  
+
+.containerText{
+  text-align: center;
+}
+
+
+
+.img-container img{
+  width: 200px;
+  padding-top: 5px;
+  margin-left: 10px;
+  border-radius:20% ;
+}
+
+
+
+
+
+                               /*Artist Section*/
+
+  /* More/Less button */
+#myBtn{
+  margin-left:90% ;
+}
+
+     /* Globel Class for all artist */
+
+.all-Artist{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-items: center;
+
+} 
+
+    /* Common container class for all artist photos */
+
+.Artist-photos{
+  display: flex;
+  width: 300px;
+  border-radius: 100%;
+  }
+.Artist-photos img { 
+  width: 17rem;
+  height: 17rem;
+  border-radius: 100%;
+
+
+}
+ /* Sub Globel cotainer that will be hidden */
+.all-Artist2 {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  row-gap: 30px;
+  column-gap: 10px;
+  justify-items: center;
+}
+.img-container button {
+  margin-left:  37%;
+  margin-bottom: 20%;
+  display: flex;
+  background: transparent;
+  border: 0;
+  }
+ 
+  .pl img{
+    width: 1.8rem;
+    border-radius: 100%;
+    margin-top: 1px;
+  
+  }
+
+  #moreResponce{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+/*                               */ 
+
+
+
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+  .all-Artist{
+  
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+  .all-Artist2 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
